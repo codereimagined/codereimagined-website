@@ -1,3 +1,9 @@
+# AWS CloudFormation stack
+
+To create your stack execute `./aws-create-stack.sh`, to modify existing `./aws-modify-stack.sh`.
+
+Currently, there is a bug where we need to manually enable "Use Static Website" in CloudFront Origin S3 configuration
+
 # Backup commands
 
 ```
