@@ -24,3 +24,11 @@ docker run --rm --volumes-from my-wordpress-db-1 -v $(pwd):/backup ubuntu bash -
 
 docker run --rm --volumes-from my-wordpress-wordpress-1 -v $(pwd):/backup ubuntu bash -c "rm -rf /var/www/html/* && cd /var && tar xvf /backup/wp_files.tar --strip 1"
 ```
+
+# Wordpress Settings
+## Plugins
+* Simply Static
+
+## Credentials
+http://localhost/wp-admin
+See creds.txt (not included in repo)
